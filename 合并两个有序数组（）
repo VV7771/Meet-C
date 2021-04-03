@@ -3,7 +3,9 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int start1 = 0,start2 = 0;
     int *res = (int*)malloc((m+n)*sizeof(int));
     memset(res,0,(m+n)*sizeof(int));
-    for(i=0;i<nums1Size;i++){
+    for(i=0;i<nums1Size;i++)
+    
+    {
         if(start1==m||start2==n)
         
         
